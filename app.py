@@ -18,7 +18,7 @@ st.markdown("Analyze Netflix Content Trends, Ratings & Viewer Insights")
 # KPI SECTION
 # ======================
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col5 = st.columns(4)
 
 with col1:
     st.metric("Total Titles", len(df))
